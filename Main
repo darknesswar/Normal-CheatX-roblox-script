@@ -1,4 +1,3 @@
---yes
 
 local Main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -16,32 +15,6 @@ local jumppower = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextBox_2 = Instance.new("TextBox")
 local OK_3 = Instance.new("TextButton")
-local freedanceemotes = Instance.new("ScrollingFrame")
-local jw = Instance.new("TextButton")
-local infolabel = Instance.new("TextLabel")
-local bbdance = Instance.new("TextButton")
-local sleep = Instance.new("TextButton")
-local fashionable = Instance.new("TextButton")
-local fasthands = Instance.new("TextButton")
-local shuffle = Instance.new("TextButton")
-local twirl = Instance.new("TextButton")
-local dorky = Instance.new("TextButton")
-local fancyfeet = Instance.new("TextButton")
-local cower = Instance.new("TextButton")
-local monkey = Instance.new("TextButton")
-local disco = Instance.new("TextButton")
-local dizzy = Instance.new("TextButton")
-local lined = Instance.new("TextButton")
-local rock = Instance.new("TextButton")
-local e = Instance.new("TextButton")
-local heroland = Instance.new("TextButton")
-local happy = Instance.new("TextButton")
-local shy = Instance.new("TextButton")
-local godlike = Instance.new("TextButton")
-local noobflex = Instance.new("TextButton")
-local t = Instance.new("TextButton")
-local bored = Instance.new("TextButton")
-local infolabel_2 = Instance.new("TextLabel")
 local INFJUMP = Instance.new("Frame")
 local TextLabel_5 = Instance.new("TextLabel")
 local OK_4 = Instance.new("TextButton")
@@ -61,6 +34,48 @@ local OK_6 = Instance.new("TextButton")
 local day = Instance.new("Frame")
 local TextLabel_8 = Instance.new("TextLabel")
 local OK_7 = Instance.new("TextButton")
+local ESP = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local OK_8 = Instance.new("TextButton")
+local sus1 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local OK_9 = Instance.new("TextButton")
+local Xclose = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local RecommendedScripts = Instance.new("Frame")
+local night_2 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local OK_10 = Instance.new("TextButton")
+local day_2 = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local OK_11 = Instance.new("TextButton")
+local ESP_2 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local OK_12 = Instance.new("TextButton")
+local sus1_2 = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local OK_13 = Instance.new("TextButton")
+local clickTP_2 = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local OK_14 = Instance.new("TextButton")
+local jumppower_2 = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextBox_3 = Instance.new("TextBox")
+local OK_15 = Instance.new("TextButton")
+local spinbot_2 = Instance.new("Frame")
+local TextLabel_17 = Instance.new("TextLabel")
+local OK_16 = Instance.new("TextButton")
+local walkspeed_2 = Instance.new("Frame")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextBox_4 = Instance.new("TextBox")
+local OK_17 = Instance.new("TextButton")
+local INFJUMP_2 = Instance.new("Frame")
+local TextLabel_19 = Instance.new("TextLabel")
+local OK_18 = Instance.new("TextButton")
+local RCG = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local info_2 = Instance.new("TextLabel")
+local info_3 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -72,8 +87,8 @@ Frame.Parent = Main
 Frame.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.175101191, 0, 0.140603557, 0)
-Frame.Size = UDim2.new(0, 750, 0, 421)
+Frame.Position = UDim2.new(0.175101221, 0, 0.140603557, 0)
+Frame.Size = UDim2.new(0, 710, 0, 421)
 
 UICorner.Parent = Frame
 
@@ -96,8 +111,8 @@ YourCharacter.Parent = Frame
 YourCharacter.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 YourCharacter.BorderColor3 = Color3.fromRGB(0, 0, 0)
 YourCharacter.BorderSizePixel = 0
-YourCharacter.Position = UDim2.new(0.189333335, 0, 0.114014253, 0)
-YourCharacter.Size = UDim2.new(0, 601, 0, 353)
+YourCharacter.Position = UDim2.new(0.0969104171, 0, 0.114014253, 0)
+YourCharacter.Size = UDim2.new(0, 635, 0, 353)
 YourCharacter.Visible = false
 YourCharacter.ZIndex = 4
 
@@ -211,342 +226,6 @@ OK_3.Text = "APPLY"
 OK_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_3.TextSize = 20.000
 
-freedanceemotes.Name = "free dance emotes"
-freedanceemotes.Parent = YourCharacter
-freedanceemotes.Active = true
-freedanceemotes.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-freedanceemotes.BorderColor3 = Color3.fromRGB(27, 42, 53)
-freedanceemotes.BorderSizePixel = 0
-freedanceemotes.Position = UDim2.new(0.0562483631, 0, 0.480132192, 0)
-freedanceemotes.Size = UDim2.new(0.287073106, 1, 0.517409205, 0)
-freedanceemotes.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
-
-jw.Name = "jw"
-jw.Parent = freedanceemotes
-jw.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-jw.BackgroundTransparency = 0.750
-jw.BorderColor3 = Color3.fromRGB(27, 42, 53)
-jw.BorderSizePixel = 0
-jw.Position = UDim2.new(0.135000005, 0, 0.257999986, 0)
-jw.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-jw.Font = Enum.Font.Gotham
-jw.Text = "Jumping Wave"
-jw.TextColor3 = Color3.fromRGB(255, 255, 255)
-jw.TextSize = 11.000
-
-infolabel.Name = "infolabel"
-infolabel.Parent = freedanceemotes
-infolabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-infolabel.BackgroundTransparency = 1.000
-infolabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
-infolabel.Position = UDim2.new(0.135000005, 0, 0.617999971, 0)
-infolabel.Size = UDim2.new(0.800000012, 0, 0.200000003, 0)
-infolabel.Font = Enum.Font.Gotham
-infolabel.Text = "If your character is stuck,\\nClick Respawn!"
-infolabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-infolabel.TextSize = 10.000
-infolabel.TextWrapped = true
-
-bbdance.Name = "bbdance"
-bbdance.Parent = freedanceemotes
-bbdance.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-bbdance.BackgroundTransparency = 0.750
-bbdance.BorderColor3 = Color3.fromRGB(27, 42, 53)
-bbdance.BorderSizePixel = 0
-bbdance.Position = UDim2.new(0.135000005, 0, 0.0419999994, 0)
-bbdance.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-bbdance.Font = Enum.Font.Gotham
-bbdance.Text = "Baby Dance"
-bbdance.TextColor3 = Color3.fromRGB(255, 255, 255)
-bbdance.TextSize = 11.000
-
-sleep.Name = "sleep"
-sleep.Parent = freedanceemotes
-sleep.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-sleep.BackgroundTransparency = 0.750
-sleep.BorderColor3 = Color3.fromRGB(27, 42, 53)
-sleep.BorderSizePixel = 0
-sleep.Position = UDim2.new(0.135000005, 0, 0.0659999996, 0)
-sleep.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-sleep.Font = Enum.Font.Gotham
-sleep.Text = "Sleep"
-sleep.TextColor3 = Color3.fromRGB(255, 255, 255)
-sleep.TextSize = 11.000
-
-fashionable.Name = "fashionable"
-fashionable.Parent = freedanceemotes
-fashionable.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-fashionable.BackgroundTransparency = 0.750
-fashionable.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fashionable.BorderSizePixel = 0
-fashionable.Position = UDim2.new(0.135000005, 0, 0.0900000036, 0)
-fashionable.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-fashionable.Font = Enum.Font.Gotham
-fashionable.Text = "Fashionable"
-fashionable.TextColor3 = Color3.fromRGB(255, 255, 255)
-fashionable.TextSize = 11.000
-
-fasthands.Name = "fasthands"
-fasthands.Parent = freedanceemotes
-fasthands.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-fasthands.BackgroundTransparency = 0.750
-fasthands.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fasthands.BorderSizePixel = 0
-fasthands.Position = UDim2.new(0.135000005, 0, 0.497999996, 0)
-fasthands.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-fasthands.Font = Enum.Font.Gotham
-fasthands.Text = "Fast Hands"
-fasthands.TextColor3 = Color3.fromRGB(255, 255, 255)
-fasthands.TextSize = 11.000
-
-shuffle.Name = "shuffle"
-shuffle.Parent = freedanceemotes
-shuffle.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-shuffle.BackgroundTransparency = 0.750
-shuffle.BorderColor3 = Color3.fromRGB(27, 42, 53)
-shuffle.BorderSizePixel = 0
-shuffle.Position = UDim2.new(0.135000005, 0, 0.137999997, 0)
-shuffle.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-shuffle.Font = Enum.Font.Gotham
-shuffle.Text = "Shuffle"
-shuffle.TextColor3 = Color3.fromRGB(255, 255, 255)
-shuffle.TextSize = 11.000
-
-twirl.Name = "twirl"
-twirl.Parent = freedanceemotes
-twirl.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-twirl.BackgroundTransparency = 0.750
-twirl.BorderColor3 = Color3.fromRGB(27, 42, 53)
-twirl.BorderSizePixel = 0
-twirl.Position = UDim2.new(0.135000005, 0, 0.162, 0)
-twirl.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-twirl.Font = Enum.Font.Gotham
-twirl.Text = "Twirl"
-twirl.TextColor3 = Color3.fromRGB(255, 255, 255)
-twirl.TextSize = 11.000
-
-dorky.Name = "dorky"
-dorky.Parent = freedanceemotes
-dorky.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-dorky.BackgroundTransparency = 0.750
-dorky.BorderColor3 = Color3.fromRGB(27, 42, 53)
-dorky.BorderSizePixel = 0
-dorky.Position = UDim2.new(0.135000005, 0, 0.186000004, 0)
-dorky.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-dorky.Font = Enum.Font.Gotham
-dorky.Text = "Dorky Dance"
-dorky.TextColor3 = Color3.fromRGB(255, 255, 255)
-dorky.TextSize = 11.000
-
-fancyfeet.Name = "fancyfeet"
-fancyfeet.Parent = freedanceemotes
-fancyfeet.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-fancyfeet.BackgroundTransparency = 0.750
-fancyfeet.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fancyfeet.BorderSizePixel = 0
-fancyfeet.Position = UDim2.new(0.135000005, 0, 0.209999993, 0)
-fancyfeet.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-fancyfeet.Font = Enum.Font.Gotham
-fancyfeet.Text = "Fancy Feet"
-fancyfeet.TextColor3 = Color3.fromRGB(255, 255, 255)
-fancyfeet.TextSize = 11.000
-
-cower.Name = "cower"
-cower.Parent = freedanceemotes
-cower.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-cower.BackgroundTransparency = 0.750
-cower.BorderColor3 = Color3.fromRGB(27, 42, 53)
-cower.BorderSizePixel = 0
-cower.Position = UDim2.new(0.135000005, 0, 0.233999997, 0)
-cower.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-cower.Font = Enum.Font.Gotham
-cower.Text = "Cower"
-cower.TextColor3 = Color3.fromRGB(255, 255, 255)
-cower.TextSize = 11.000
-
-monkey.Name = "monkey"
-monkey.Parent = freedanceemotes
-monkey.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-monkey.BackgroundTransparency = 0.750
-monkey.BorderColor3 = Color3.fromRGB(27, 42, 53)
-monkey.BorderSizePixel = 0
-monkey.Position = UDim2.new(0.134671912, 0, 0.0182388611, 0)
-monkey.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-monkey.Font = Enum.Font.Gotham
-monkey.Text = "Monkey"
-monkey.TextColor3 = Color3.fromRGB(255, 255, 255)
-monkey.TextSize = 11.000
-
-disco.Name = "disco"
-disco.Parent = freedanceemotes
-disco.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-disco.BackgroundTransparency = 0.750
-disco.BorderColor3 = Color3.fromRGB(27, 42, 53)
-disco.BorderSizePixel = 0
-disco.Position = UDim2.new(0.135000005, 0, 0.282000005, 0)
-disco.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-disco.Font = Enum.Font.Gotham
-disco.Text = "Side To Side"
-disco.TextColor3 = Color3.fromRGB(255, 255, 255)
-disco.TextSize = 11.000
-
-dizzy.Name = "dizzy"
-dizzy.Parent = freedanceemotes
-dizzy.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-dizzy.BackgroundTransparency = 0.750
-dizzy.BorderColor3 = Color3.fromRGB(27, 42, 53)
-dizzy.BorderSizePixel = 0
-dizzy.Position = UDim2.new(0.135000005, 0, 0.305999994, 0)
-dizzy.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-dizzy.Font = Enum.Font.Gotham
-dizzy.Text = "Dizzy"
-dizzy.TextColor3 = Color3.fromRGB(255, 255, 255)
-dizzy.TextSize = 11.000
-
-lined.Name = "lined"
-lined.Parent = freedanceemotes
-lined.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-lined.BackgroundTransparency = 0.750
-lined.BorderColor3 = Color3.fromRGB(27, 42, 53)
-lined.BorderSizePixel = 0
-lined.Position = UDim2.new(0.135000005, 0, 0.330000013, 0)
-lined.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-lined.Font = Enum.Font.Gotham
-lined.Text = "Line Dance"
-lined.TextColor3 = Color3.fromRGB(255, 255, 255)
-lined.TextSize = 11.000
-
-rock.Name = "rock"
-rock.Parent = freedanceemotes
-rock.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-rock.BackgroundTransparency = 0.750
-rock.BorderColor3 = Color3.fromRGB(27, 42, 53)
-rock.BorderSizePixel = 0
-rock.Position = UDim2.new(0.135000005, 0, 0.40200001, 0)
-rock.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-rock.Font = Enum.Font.Gotham
-rock.Text = "Top Rock"
-rock.TextColor3 = Color3.fromRGB(255, 255, 255)
-rock.TextSize = 11.000
-
-e.Name = "e"
-e.Parent = freedanceemotes
-e.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-e.BackgroundTransparency = 0.750
-e.BorderColor3 = Color3.fromRGB(27, 42, 53)
-e.BorderSizePixel = 0
-e.Position = UDim2.new(0.135000005, 0, 0.546000004, 0)
-e.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-e.Font = Enum.Font.Gotham
-e.Text = "E Pose"
-e.TextColor3 = Color3.fromRGB(255, 255, 255)
-e.TextSize = 11.000
-
-heroland.Name = "heroland"
-heroland.Parent = freedanceemotes
-heroland.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-heroland.BackgroundTransparency = 0.750
-heroland.BorderColor3 = Color3.fromRGB(27, 42, 53)
-heroland.BorderSizePixel = 0
-heroland.Position = UDim2.new(0.135000005, 0, 0.354000002, 0)
-heroland.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-heroland.Font = Enum.Font.Gotham
-heroland.Text = "Hero Landing"
-heroland.TextColor3 = Color3.fromRGB(255, 255, 255)
-heroland.TextSize = 11.000
-
-happy.Name = "happy"
-happy.Parent = freedanceemotes
-happy.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-happy.BackgroundTransparency = 0.750
-happy.BorderColor3 = Color3.fromRGB(27, 42, 53)
-happy.BorderSizePixel = 0
-happy.Position = UDim2.new(0.135000005, 0, 0.449999988, 0)
-happy.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-happy.Font = Enum.Font.Gotham
-happy.Text = "Happy"
-happy.TextColor3 = Color3.fromRGB(255, 255, 255)
-happy.TextSize = 11.000
-
-shy.Name = "shy"
-shy.Parent = freedanceemotes
-shy.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-shy.BackgroundTransparency = 0.750
-shy.BorderColor3 = Color3.fromRGB(27, 42, 53)
-shy.BorderSizePixel = 0
-shy.Position = UDim2.new(0.135000005, 0, 0.522000015, 0)
-shy.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-shy.Font = Enum.Font.Gotham
-shy.Text = "Shy"
-shy.TextColor3 = Color3.fromRGB(255, 255, 255)
-shy.TextSize = 11.000
-
-godlike.Name = "godlike"
-godlike.Parent = freedanceemotes
-godlike.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-godlike.BackgroundTransparency = 0.750
-godlike.BorderColor3 = Color3.fromRGB(27, 42, 53)
-godlike.BorderSizePixel = 0
-godlike.Position = UDim2.new(0.135000005, 0, 0.377999991, 0)
-godlike.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-godlike.Font = Enum.Font.Gotham
-godlike.Text = "Godlike"
-godlike.TextColor3 = Color3.fromRGB(255, 255, 255)
-godlike.TextSize = 11.000
-
-noobflex.Name = "noobflex"
-noobflex.Parent = freedanceemotes
-noobflex.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-noobflex.BackgroundTransparency = 0.750
-noobflex.BorderColor3 = Color3.fromRGB(27, 42, 53)
-noobflex.BorderSizePixel = 0
-noobflex.Position = UDim2.new(0.135000005, 0, 0.425999999, 0)
-noobflex.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-noobflex.Font = Enum.Font.Gotham
-noobflex.Text = "Body Builder"
-noobflex.TextColor3 = Color3.fromRGB(255, 255, 255)
-noobflex.TextSize = 11.000
-
-t.Name = "t"
-t.Parent = freedanceemotes
-t.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-t.BackgroundTransparency = 0.750
-t.BorderColor3 = Color3.fromRGB(27, 42, 53)
-t.BorderSizePixel = 0
-t.Position = UDim2.new(0.135000005, 0, 0.474000007, 0)
-t.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-t.Font = Enum.Font.Gotham
-t.Text = "T Pose"
-t.TextColor3 = Color3.fromRGB(255, 255, 255)
-t.TextSize = 11.000
-
-bored.Name = "bored"
-bored.Parent = freedanceemotes
-bored.BackgroundColor3 = Color3.fromRGB(23, 62, 61)
-bored.BackgroundTransparency = 0.750
-bored.BorderColor3 = Color3.fromRGB(27, 42, 53)
-bored.BorderSizePixel = 0
-bored.Position = UDim2.new(0.135000005, 0, 0.114, 0)
-bored.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
-bored.Font = Enum.Font.Gotham
-bored.Text = "Bored"
-bored.TextColor3 = Color3.fromRGB(255, 255, 255)
-bored.TextSize = 11.000
-
-infolabel_2.Name = "infolabel"
-infolabel_2.Parent = YourCharacter
-infolabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-infolabel_2.BackgroundTransparency = 1.000
-infolabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-infolabel_2.Position = UDim2.new(0.0562484153, 0, 0.382141888, 0)
-infolabel_2.Size = UDim2.new(0.288736969, 0, 0.104413323, 0)
-infolabel_2.Font = Enum.Font.Cartoon
-infolabel_2.Text = "Free roblox emotes"
-infolabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-infolabel_2.TextScaled = true
-infolabel_2.TextSize = 10.000
-infolabel_2.TextWrapped = true
-
 INFJUMP.Name = "INFJUMP"
 INFJUMP.Parent = YourCharacter
 INFJUMP.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
@@ -614,7 +293,7 @@ YC.BackgroundTransparency = 0.600
 YC.BorderColor3 = Color3.fromRGB(0, 0, 0)
 YC.BorderSizePixel = 0
 YC.Position = UDim2.new(0, 0, 0.140142515, 0)
-YC.Size = UDim2.new(0, 142, 0, 50)
+YC.Size = UDim2.new(0, 60, 0, 50)
 YC.ZIndex = 2
 YC.Font = Enum.Font.SourceSans
 YC.Text = "Your character"
@@ -666,7 +345,7 @@ C.BackgroundTransparency = 0.600
 C.BorderColor3 = Color3.fromRGB(0, 0, 0)
 C.BorderSizePixel = 0
 C.Position = UDim2.new(0, 0, 0.282660335, 0)
-C.Size = UDim2.new(0, 142, 0, 48)
+C.Size = UDim2.new(0, 60, 0, 48)
 C.ZIndex = 2
 C.Font = Enum.Font.SourceSans
 C.Text = "Client sided"
@@ -682,8 +361,8 @@ clientsided.Parent = Frame
 clientsided.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 clientsided.BorderColor3 = Color3.fromRGB(0, 0, 0)
 clientsided.BorderSizePixel = 0
-clientsided.Position = UDim2.new(0.189333335, 0, 0.114014253, 0)
-clientsided.Size = UDim2.new(0, 601, 0, 353)
+clientsided.Position = UDim2.new(0.0969104171, 0, 0.114014253, 0)
+clientsided.Size = UDim2.new(0, 635, 0, 353)
 clientsided.Visible = false
 clientsided.ZIndex = 4
 
@@ -721,7 +400,7 @@ day.Name = "day"
 day.Parent = clientsided
 day.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
 day.BorderColor3 = Color3.fromRGB(27, 42, 53)
-day.Position = UDim2.new(0.341910422, 0, 0.0298334397, 0)
+day.Position = UDim2.new(0.393878907, 0, 0.0298334397, 0)
 day.Size = UDim2.new(0, 178, 0, 101)
 day.Style = Enum.FrameStyle.RobloxRound
 
@@ -747,9 +426,447 @@ OK_7.Text = "APPLY"
 OK_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_7.TextSize = 20.000
 
+ESP.Name = "ESP"
+ESP.Parent = clientsided
+ESP.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+ESP.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ESP.Position = UDim2.new(0.101450235, 0, 0.0298333969, 0)
+ESP.Size = UDim2.new(0, 178, 0, 101)
+ESP.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_9.Parent = ESP
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 2.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.Position = UDim2.new(-0.000729507301, 0, -0.229502305, 0)
+TextLabel_9.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_9.Font = Enum.Font.Cartoon
+TextLabel_9.Text = "ESP - show players where hidden"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 28.000
+TextLabel_9.TextWrapped = true
+
+OK_8.Name = "OK"
+OK_8.Parent = ESP
+OK_8.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_8.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_8.Size = UDim2.new(0, 104, 0, 41)
+OK_8.Font = Enum.Font.Cartoon
+OK_8.Text = "APPLY"
+OK_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_8.TextSize = 20.000
+
+sus1.Name = "sus1"
+sus1.Parent = clientsided
+sus1.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+sus1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+sus1.Position = UDim2.new(0.68412739, 0, 0.347113848, 0)
+sus1.Size = UDim2.new(0, 178, 0, 101)
+sus1.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_10.Parent = sus1
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 2.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.Position = UDim2.new(-0.000729507301, 0, -0.229502305, 0)
+TextLabel_10.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_10.Font = Enum.Font.Cartoon
+TextLabel_10.Text = "Naked"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 28.000
+TextLabel_10.TextWrapped = true
+
+OK_9.Name = "OK"
+OK_9.Parent = sus1
+OK_9.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_9.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_9.Size = UDim2.new(0, 104, 0, 41)
+OK_9.Font = Enum.Font.Cartoon
+OK_9.Text = "APPLY"
+OK_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_9.TextSize = 20.000
+
+Xclose.Name = "X-close"
+Xclose.Parent = Frame
+Xclose.BackgroundColor3 = Color3.fromRGB(103, 29, 27)
+Xclose.BackgroundTransparency = 0.600
+Xclose.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Xclose.BorderSizePixel = 0
+Xclose.Position = UDim2.new(0.915492952, 0, 0, 0)
+Xclose.Size = UDim2.new(0, 53, 0, 24)
+Xclose.ZIndex = 2
+Xclose.Font = Enum.Font.Creepster
+Xclose.Text = "X"
+Xclose.TextColor3 = Color3.fromRGB(255, 0, 0)
+Xclose.TextScaled = true
+Xclose.TextSize = 14.000
+Xclose.TextWrapped = true
+
+UICorner_4.Parent = Xclose
+
+RecommendedScripts.Name = "RecommendedScripts"
+RecommendedScripts.Parent = Frame
+RecommendedScripts.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+RecommendedScripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RecommendedScripts.BorderSizePixel = 0
+RecommendedScripts.Position = UDim2.new(0.0969104171, 0, 0.114014253, 0)
+RecommendedScripts.Size = UDim2.new(0, 635, 0, 353)
+RecommendedScripts.Visible = false
+RecommendedScripts.ZIndex = 4
+
+night_2.Name = "night"
+night_2.Parent = RecommendedScripts
+night_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+night_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+night_2.Position = UDim2.new(0.681344688, 0, 0.0298334397, 0)
+night_2.Size = UDim2.new(0, 178, 0, 101)
+night_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_11.Parent = night_2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 2.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_11.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_11.Font = Enum.Font.Cartoon
+TextLabel_11.Text = "Night time"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 28.000
+
+OK_10.Name = "OK"
+OK_10.Parent = night_2
+OK_10.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_10.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_10.Size = UDim2.new(0, 104, 0, 41)
+OK_10.Font = Enum.Font.Cartoon
+OK_10.Text = "APPLY"
+OK_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_10.TextSize = 20.000
+
+day_2.Name = "day"
+day_2.Parent = RecommendedScripts
+day_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+day_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+day_2.Position = UDim2.new(0.363957644, 0, 0.0298334397, 0)
+day_2.Size = UDim2.new(0, 178, 0, 101)
+day_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_12.Parent = day_2
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 2.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_12.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_12.Font = Enum.Font.Cartoon
+TextLabel_12.Text = "Day time"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 28.000
+
+OK_11.Name = "OK"
+OK_11.Parent = day_2
+OK_11.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_11.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_11.Size = UDim2.new(0, 104, 0, 41)
+OK_11.Font = Enum.Font.Cartoon
+OK_11.Text = "APPLY"
+OK_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_11.TextSize = 20.000
+
+ESP_2.Name = "ESP"
+ESP_2.Parent = RecommendedScripts
+ESP_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+ESP_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ESP_2.Position = UDim2.new(0.0731037781, 0, 0.0298333969, 0)
+ESP_2.Size = UDim2.new(0, 178, 0, 101)
+ESP_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_13.Parent = ESP_2
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 2.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.Position = UDim2.new(-0.000729507301, 0, -0.229502305, 0)
+TextLabel_13.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_13.Font = Enum.Font.Cartoon
+TextLabel_13.Text = "ESP - show players where hidden"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 28.000
+TextLabel_13.TextWrapped = true
+
+OK_12.Name = "OK"
+OK_12.Parent = ESP_2
+OK_12.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_12.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_12.Size = UDim2.new(0, 104, 0, 41)
+OK_12.Font = Enum.Font.Cartoon
+OK_12.Text = "APPLY"
+OK_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_12.TextSize = 20.000
+
+sus1_2.Name = "sus1"
+sus1_2.Parent = RecommendedScripts
+sus1_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+sus1_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+sus1_2.Position = UDim2.new(0.68412739, 0, 0.347113848, 0)
+sus1_2.Size = UDim2.new(0, 178, 0, 101)
+sus1_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_14.Parent = sus1_2
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 2.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.Position = UDim2.new(0.0442799777, 0, 0, 0)
+TextLabel_14.Size = UDim2.new(0, 152, 0, 47)
+TextLabel_14.Font = Enum.Font.Cartoon
+TextLabel_14.Text = "Naked"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 28.000
+TextLabel_14.TextWrapped = true
+
+OK_13.Name = "OK"
+OK_13.Parent = sus1_2
+OK_13.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_13.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_13.Size = UDim2.new(0, 104, 0, 41)
+OK_13.Font = Enum.Font.Cartoon
+OK_13.Text = "APPLY"
+OK_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_13.TextSize = 20.000
+
+clickTP_2.Name = "clickTP"
+clickTP_2.Parent = RecommendedScripts
+clickTP_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+clickTP_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+clickTP_2.Position = UDim2.new(0.683008611, 0, 0.338615268, 0)
+clickTP_2.Size = UDim2.new(0, 178, 0, 101)
+clickTP_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_15.Parent = clickTP_2
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 2.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_15.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_15.Font = Enum.Font.Cartoon
+TextLabel_15.Text = "Click Teleport"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 28.000
+
+OK_14.Name = "OK"
+OK_14.Parent = clickTP_2
+OK_14.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_14.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_14.Size = UDim2.new(0, 104, 0, 41)
+OK_14.Font = Enum.Font.Cartoon
+OK_14.Text = "GIVE"
+OK_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_14.TextSize = 20.000
+
+jumppower_2.Name = "jump power"
+jumppower_2.Parent = RecommendedScripts
+jumppower_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+jumppower_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+jumppower_2.Position = UDim2.new(0.350927651, 0, 0.657347441, 0)
+jumppower_2.Size = UDim2.new(0, 188, 0, 99)
+jumppower_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_16.Parent = jumppower_2
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 2.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_16.Position = UDim2.new(0.0469801873, 0, 0.073431924, 0)
+TextLabel_16.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_16.Font = Enum.Font.Cartoon
+TextLabel_16.Text = "Jump power"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 28.000
+
+TextBox_3.Parent = jumppower_2
+TextBox_3.BackgroundColor3 = Color3.fromRGB(48, 84, 97)
+TextBox_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox_3.Position = UDim2.new(0.0770735964, 0, 0.542800009, 0)
+TextBox_3.Size = UDim2.new(0, 138, 0, 37)
+TextBox_3.Font = Enum.Font.Cartoon
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.TextSize = 30.000
+
+OK_15.Name = "OK"
+OK_15.Parent = jumppower_2
+OK_15.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_15.Position = UDim2.new(0.749928832, 0, -0.00417861948, 0)
+OK_15.Size = UDim2.new(0, 44, 0, 41)
+OK_15.Font = Enum.Font.Cartoon
+OK_15.Text = "APPLY"
+OK_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_15.TextSize = 20.000
+
+spinbot_2.Name = "spin bot"
+spinbot_2.Parent = RecommendedScripts
+spinbot_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+spinbot_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+spinbot_2.Position = UDim2.new(0.0703210533, 0, 0.338615268, 0)
+spinbot_2.Size = UDim2.new(0, 178, 0, 101)
+spinbot_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_17.Parent = spinbot_2
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 2.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_17.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_17.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_17.Font = Enum.Font.Cartoon
+TextLabel_17.Text = "SpinBot"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 28.000
+
+OK_16.Name = "OK"
+OK_16.Parent = spinbot_2
+OK_16.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_16.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_16.Size = UDim2.new(0, 104, 0, 41)
+OK_16.Font = Enum.Font.Cartoon
+OK_16.Text = "APPLY"
+OK_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_16.TextSize = 20.000
+
+walkspeed_2.Name = "walk speed"
+walkspeed_2.Parent = RecommendedScripts
+walkspeed_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+walkspeed_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+walkspeed_2.Position = UDim2.new(0.687272847, 0, 0.657347441, 0)
+walkspeed_2.Size = UDim2.new(0, 178, 0, 100)
+walkspeed_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_18.Parent = walkspeed_2
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 2.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_18.Position = UDim2.new(0.0539387912, 0, 0.0717330948, 0)
+TextLabel_18.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_18.Font = Enum.Font.Cartoon
+TextLabel_18.Text = "WalkSpeed"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 28.000
+
+TextBox_4.Parent = walkspeed_2
+TextBox_4.BackgroundColor3 = Color3.fromRGB(48, 84, 97)
+TextBox_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox_4.Position = UDim2.new(0.0770735964, 0, 0.542800009, 0)
+TextBox_4.Size = UDim2.new(0, 138, 0, 37)
+TextBox_4.Font = Enum.Font.Cartoon
+TextBox_4.Text = ""
+TextBox_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_4.TextSize = 30.000
+
+OK_17.Name = "OK"
+OK_17.Parent = walkspeed_2
+OK_17.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_17.Position = UDim2.new(0.749928832, 0, -0.00417861948, 0)
+OK_17.Size = UDim2.new(0, 44, 0, 41)
+OK_17.Font = Enum.Font.Cartoon
+OK_17.Text = "APPLY"
+OK_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_17.TextSize = 20.000
+
+INFJUMP_2.Name = "INFJUMP"
+INFJUMP_2.Parent = RecommendedScripts
+INFJUMP_2.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+INFJUMP_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+INFJUMP_2.Position = UDim2.new(0.366868824, 0, 0.338615268, 0)
+INFJUMP_2.Size = UDim2.new(0, 178, 0, 101)
+INFJUMP_2.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_19.Parent = INFJUMP_2
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 2.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_19.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_19.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_19.Font = Enum.Font.Cartoon
+TextLabel_19.Text = "Infinite Jump"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 28.000
+
+OK_18.Name = "OK"
+OK_18.Parent = INFJUMP_2
+OK_18.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_18.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_18.Size = UDim2.new(0, 104, 0, 41)
+OK_18.Font = Enum.Font.Cartoon
+OK_18.Text = "GIVE"
+OK_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_18.TextSize = 20.000
+
+RCG.Name = "RCG"
+RCG.Parent = Frame
+RCG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RCG.BackgroundTransparency = 0.600
+RCG.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RCG.BorderSizePixel = 0
+RCG.Position = UDim2.new(0, 0, 0.415676951, 0)
+RCG.Size = UDim2.new(0, 60, 0, 48)
+RCG.ZIndex = 2
+RCG.Font = Enum.Font.SourceSans
+RCG.Text = "Game Recommended cheats"
+RCG.TextColor3 = Color3.fromRGB(255, 255, 255)
+RCG.TextScaled = true
+RCG.TextSize = 14.000
+RCG.TextWrapped = true
+
+UICorner_5.Parent = RCG
+
+info_2.Name = "info"
+info_2.Parent = Frame
+info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+info_2.BackgroundTransparency = 1.000
+info_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+info_2.BorderSizePixel = 0
+info_2.Position = UDim2.new(0.277258217, 0, 0.603325427, 0)
+info_2.Size = UDim2.new(0, 444, 0, 42)
+info_2.ZIndex = 0
+info_2.Font = Enum.Font.Cartoon
+info_2.Text = "this game works every game 99%."
+info_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+info_2.TextScaled = true
+info_2.TextSize = 14.000
+info_2.TextStrokeTransparency = 0.000
+info_2.TextWrapped = true
+
+info_3.Name = "info"
+info_3.Parent = Frame
+info_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+info_3.BackgroundTransparency = 1.000
+info_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+info_3.BorderSizePixel = 0
+info_3.Position = UDim2.new(0.278666675, 0, 0.852731586, 0)
+info_3.Size = UDim2.new(0, 444, 0, 42)
+info_3.ZIndex = 0
+info_3.Font = Enum.Font.Cartoon
+info_3.Text = "discord server: https://discord.gg/bxt9r3cQKW"
+info_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+info_3.TextScaled = true
+info_3.TextSize = 14.000
+info_3.TextStrokeTransparency = 0.000
+info_3.TextWrapped = true
+
 -- Scripts:
 
-local function UKHT_fake_script() -- Frame.Drag 
+local function XBMOYIU_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -792,8 +909,8 @@ local function UKHT_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(UKHT_fake_script)()
-local function LFIFHC_fake_script() -- OK.LocalScript 
+coroutine.wrap(XBMOYIU_fake_script)()
+local function DZNBEW_fake_script() -- OK.LocalScript 
 	local script = Instance.new('LocalScript', OK)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -811,8 +928,8 @@ local function LFIFHC_fake_script() -- OK.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(LFIFHC_fake_script)()
-local function SJTGZI_fake_script() -- OK_2.LocalScript 
+coroutine.wrap(DZNBEW_fake_script)()
+local function UDEFMT_fake_script() -- OK_2.LocalScript 
 	local script = Instance.new('LocalScript', OK_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -822,8 +939,8 @@ local function SJTGZI_fake_script() -- OK_2.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(SJTGZI_fake_script)()
-local function GPLEFZ_fake_script() -- OK_3.LocalScript 
+coroutine.wrap(UDEFMT_fake_script)()
+local function LTEC_fake_script() -- OK_3.LocalScript 
 	local script = Instance.new('LocalScript', OK_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -833,87 +950,8 @@ local function GPLEFZ_fake_script() -- OK_3.LocalScript
 		hum.JumpPower = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(GPLEFZ_fake_script)()
-local function IQQV_fake_script() -- freedanceemotes.AnimScript 
-	local script = Instance.new('LocalScript', freedanceemotes)
-
-	wait(1)
-	local frame=script.Parent
-	local user=game.Players.LocalPlayer
-	repeat wait() until user.Character local char=user.Character
-	local humanoid=char:WaitForChild("Humanoid")
-	local anim
-	function playanim(id)
-		if char~=nil and humanoid~=nil then
-			local id="rbxassetid://"..tostring(id)
-			local oldanim=char:FindFirstChild("LocalAnimation")
-			if anim~=nil then
-				anim:Stop()
-			end
-			if oldanim~=nil then
-				if oldanim.AnimationId==id then
-					oldanim:Destroy()
-					return
-				end
-				oldanim:Destroy()
-			
-			end
-			local animation=Instance.new("Animation",char)
-			animation.Name="LocalAnimation"
-			animation.AnimationId=id
-			anim=humanoid:LoadAnimation(animation)
-			anim:Play()
-		end
-	end
-	local b1=frame.bbdance
-	b1.MouseButton1Down:connect(function() playanim(b1.AnimID.Value) end)
-	local b2=frame.bored
-	b2.MouseButton1Down:connect(function() playanim(b2.AnimID.Value) end)
-	local b3=frame.cower
-	b3.MouseButton1Down:connect(function() playanim(b3.AnimID.Value) end)
-	local b4=frame.disco
-	b4.MouseButton1Down:connect(function() playanim(b4.AnimID.Value) end)
-	local b5=frame.dizzy
-	b5.MouseButton1Down:connect(function() playanim(b5.AnimID.Value) end)
-	local b6=frame.dorky
-	b6.MouseButton1Down:connect(function() playanim(b6.AnimID.Value) end)
-	local b7=frame.e
-	b7.MouseButton1Down:connect(function() playanim(b7.AnimID.Value) end)
-	local b8=frame.fancyfeet
-	b8.MouseButton1Down:connect(function() playanim(b8.AnimID.Value) end)
-	local b9=frame.fashionable
-	b9.MouseButton1Down:connect(function() playanim(b9.AnimID.Value) end)
-	local b10=frame.fasthands
-	b10.MouseButton1Down:connect(function() playanim(b10.AnimID.Value) end)
-	local b11=frame.godlike
-	b11.MouseButton1Down:connect(function() playanim(b11.AnimID.Value) end)
-	local b12=frame.happy
-	b12.MouseButton1Down:connect(function() playanim(b12.AnimID.Value) end)
-	local b13=frame.heroland
-	b13.MouseButton1Down:connect(function() playanim(b13.AnimID.Value) end)
-	local b16=frame.jw
-	b16.MouseButton1Down:connect(function() playanim(b16.AnimID.Value) end)
-	local b17=frame.lined
-	b17.MouseButton1Down:connect(function() playanim(b17.AnimID.Value) end)
-	local b18=frame.monkey
-	b18.MouseButton1Down:connect(function() playanim(b18.AnimID.Value) end)
-	local b19=frame.noobflex
-	b19.MouseButton1Down:connect(function() playanim(b19.AnimID.Value) end)
-	local b20=frame.rock
-	b20.MouseButton1Down:connect(function() playanim(b20.AnimID.Value) end)
-	local b21=frame.shuffle
-	b21.MouseButton1Down:connect(function() playanim(b21.AnimID.Value) end)
-	local b22=frame.shy
-	b22.MouseButton1Down:connect(function() playanim(b22.AnimID.Value) end)
-	local b23=frame.sleep
-	b23.MouseButton1Down:connect(function() playanim(b23.AnimID.Value) end)
-	local b24=frame.t
-	b24.MouseButton1Down:connect(function() playanim(b24.AnimID.Value) end)
-	local b25=frame.twirl
-	b25.MouseButton1Down:connect(function() playanim(b25.AnimID.Value) end)
-end
-coroutine.wrap(IQQV_fake_script)()
-local function BLDY_fake_script() -- OK_4.LocalScript 
+coroutine.wrap(LTEC_fake_script)()
+local function TVXSCXX_fake_script() -- OK_4.LocalScript 
 	local script = Instance.new('LocalScript', OK_4)
 
 	local UIS = game:GetService("UserInputService")
@@ -967,8 +1005,8 @@ local function BLDY_fake_script() -- OK_4.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(BLDY_fake_script)()
-local function BULISE_fake_script() -- OK_5.LocalScript 
+coroutine.wrap(TVXSCXX_fake_script)()
+local function AAINL_fake_script() -- OK_5.LocalScript 
 	local script = Instance.new('LocalScript', OK_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -984,8 +1022,8 @@ local function BULISE_fake_script() -- OK_5.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(BULISE_fake_script)()
-local function MPCBF_fake_script() -- YC.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(AAINL_fake_script)()
+local function WXHMX_fake_script() -- YC.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', YC)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -993,15 +1031,15 @@ local function MPCBF_fake_script() -- YC.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(MPCBF_fake_script)()
-local function BUWBQL_fake_script() -- hi.LocalScript 
+coroutine.wrap(WXHMX_fake_script)()
+local function GEIQOXB_fake_script() -- hi.LocalScript 
 	local script = Instance.new('LocalScript', hi)
 
 	
 	script.Parent.Text = "(Hello, ".. game.Players.LocalPlayer.DisplayName.. ")"
 end
-coroutine.wrap(BUWBQL_fake_script)()
-local function BDHRSJ_fake_script() -- C.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(GEIQOXB_fake_script)()
+local function LOQFIPW_fake_script() -- C.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', C)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1009,8 +1047,8 @@ local function BDHRSJ_fake_script() -- C.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(BDHRSJ_fake_script)()
-local function OQXLI_fake_script() -- OK_6.LocalScript 
+coroutine.wrap(LOQFIPW_fake_script)()
+local function IBMZKYG_fake_script() -- OK_6.LocalScript 
 	local script = Instance.new('LocalScript', OK_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1018,8 +1056,8 @@ local function OQXLI_fake_script() -- OK_6.LocalScript
 		lightining.TimeOfDay = 0
 	end)
 end
-coroutine.wrap(OQXLI_fake_script)()
-local function RJXK_fake_script() -- OK_7.LocalScript 
+coroutine.wrap(IBMZKYG_fake_script)()
+local function ZQPMLWA_fake_script() -- OK_7.LocalScript 
 	local script = Instance.new('LocalScript', OK_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1028,4 +1066,288 @@ local function RJXK_fake_script() -- OK_7.LocalScript
 	lightining.TimeOfDay = 14
 	end)
 end
-coroutine.wrap(RJXK_fake_script)()
+coroutine.wrap(ZQPMLWA_fake_script)()
+local function KNGEG_fake_script() -- OK_8.LocalScript 
+	local script = Instance.new('LocalScript', OK_8)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent -- Assuming the script is a child of the button
+	
+	local function createHighlightForPlayer(player)
+		local highlight = Instance.new("Highlight")
+		highlight.Adornee = player.Character
+		highlight.Parent = player.Character
+	end
+	
+	local function onPlayerAdded(player)
+		player.CharacterAdded:Connect(function(character)
+			createHighlightForPlayer(player)
+		end)
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(Players:GetPlayers()) do
+			createHighlightForPlayer(player)
+		end
+		Players.PlayerAdded:Connect(onPlayerAdded)
+	end)
+	
+end
+coroutine.wrap(KNGEG_fake_script)()
+local function MGBRS_fake_script() -- OK_9.LocalScript 
+	local script = Instance.new('LocalScript', OK_9)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent -- Assuming the script is a child of the button
+	
+	button.MouseButton1Click:Connect(function()
+	    local player = Players.LocalPlayer
+	    local character = player.Character or player.CharacterAdded:Wait()
+	
+	    -- Destroy Shirt and Pants if they exist
+	    if character:FindFirstChild("Shirt") then
+	        character.Shirt:Destroy()
+	    end
+	    if character:FindFirstChild("Pants") then
+	        character.Pants:Destroy()
+	    end
+	
+		-- Change the color of the character's body parts
+		local bodyParts = {"Torso", "Left Arm", "Right Arm", "Left Leg", "Right Leg", "Head"}
+		for _, partName in pairs(bodyParts) do
+			local part = character:WaitForChild(partName)
+			part.BrickColor = BrickColor.new("Light orange")
+	
+	    end
+	end)
+	
+	
+end
+coroutine.wrap(MGBRS_fake_script)()
+local function WLFUG_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
+	local script = Instance.new('LocalScript', Xclose)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent:Destroy()
+		
+	end)
+	                
+end
+coroutine.wrap(WLFUG_fake_script)()
+local function XVPBGH_fake_script() -- OK_10.LocalScript 
+	local script = Instance.new('LocalScript', OK_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local lightining = game.Lighting
+		lightining.TimeOfDay = 0
+	end)
+end
+coroutine.wrap(XVPBGH_fake_script)()
+local function BTOH_fake_script() -- OK_11.LocalScript 
+	local script = Instance.new('LocalScript', OK_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local lightining = game.Lighting
+	
+	lightining.TimeOfDay = 14
+	end)
+end
+coroutine.wrap(BTOH_fake_script)()
+local function RIPE_fake_script() -- OK_12.LocalScript 
+	local script = Instance.new('LocalScript', OK_12)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent -- Assuming the script is a child of the button
+	
+	local function createHighlightForPlayer(player)
+		local highlight = Instance.new("Highlight")
+		highlight.Adornee = player.Character
+		highlight.Parent = player.Character
+	end
+	
+	local function onPlayerAdded(player)
+		player.CharacterAdded:Connect(function(character)
+			createHighlightForPlayer(player)
+		end)
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(Players:GetPlayers()) do
+			createHighlightForPlayer(player)
+		end
+		Players.PlayerAdded:Connect(onPlayerAdded)
+	end)
+	
+end
+coroutine.wrap(RIPE_fake_script)()
+local function NQQAMX_fake_script() -- OK_13.LocalScript 
+	local script = Instance.new('LocalScript', OK_13)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent -- Assuming the script is a child of the button
+	
+	button.MouseButton1Click:Connect(function()
+	    local player = Players.LocalPlayer
+	    local character = player.Character or player.CharacterAdded:Wait()
+	
+	    -- Destroy Shirt and Pants if they exist
+	    if character:FindFirstChild("Shirt") then
+	        character.Shirt:Destroy()
+	    end
+	    if character:FindFirstChild("Pants") then
+	        character.Pants:Destroy()
+	    end
+	
+		-- Change the color of the character's body parts
+		local bodyParts = {"Torso", "Left Arm", "Right Arm", "Left Leg", "Right Leg", "Head"}
+		for _, partName in pairs(bodyParts) do
+			local part = character:WaitForChild(partName)
+			part.BrickColor = BrickColor.new("Light orange")
+	
+	    end
+	end)
+	
+	
+end
+coroutine.wrap(NQQAMX_fake_script)()
+local function EOKVSDN_fake_script() -- OK_14.LocalScript 
+	local script = Instance.new('LocalScript', OK_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		mouse = game.Players.LocalPlayer:GetMouse()
+		tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click Teleport"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	end)
+end
+coroutine.wrap(EOKVSDN_fake_script)()
+local function XDJZ_fake_script() -- OK_15.LocalScript 
+	local script = Instance.new('LocalScript', OK_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = game.Players.LocalPlayer
+	    local char = plr.Character
+	    local hum = char.Humanoid
+		hum.JumpPower = script.Parent.Parent.TextBox.Text
+	end)
+end
+coroutine.wrap(XDJZ_fake_script)()
+local function NQGW_fake_script() -- OK_16.LocalScript 
+	local script = Instance.new('LocalScript', OK_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local speed = 80
+	
+		local plr = game:GetService("Players").LocalPlayer
+		repeat task.wait() until plr.Character
+		local humRoot = plr.Character:WaitForChild("HumanoidRootPart")
+		plr.Character:WaitForChild("Humanoid").AutoRotate = false
+		local velocity = Instance.new("AngularVelocity")
+		velocity.Attachment0 = humRoot:WaitForChild("RootAttachment")
+		velocity.MaxTorque = math.huge
+		velocity.AngularVelocity = Vector3.new(0, speed, 0)
+		velocity.Parent = humRoot
+		velocity.Name = "Spinbot" 
+	end)
+end
+coroutine.wrap(NQGW_fake_script)()
+local function ZJQMF_fake_script() -- OK_17.LocalScript 
+	local script = Instance.new('LocalScript', OK_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = game.Players.LocalPlayer
+	    local char = plr.Character
+	    local hum = char.Humanoid
+		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
+	end)
+end
+coroutine.wrap(ZJQMF_fake_script)()
+local function AOFL_fake_script() -- OK_18.LocalScript 
+	local script = Instance.new('LocalScript', OK_18)
+
+	local UIS = game:GetService("UserInputService")
+	local player = game.Players.LocalPlayer
+	local character
+	local humanoid
+	
+	local canDoubleJump = false
+	local hasDoubleJumped = false
+	local oldPower
+	local time_delay = 0.2
+	local jump_multiplier = 1 -- set to 1 for a normal double jump, increase for the second jump to be higher
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		function onJumpRequest()
+			if not character or not humanoid or not character:IsDescendantOf(workspace) or humanoid:GetState() == Enum.HumanoidStateType.Dead then
+				return
+			end
+	
+			if canDoubleJump and not hasDoubleJumped then
+				hasDoubleJumped = false
+				humanoid.JumpPower = oldPower * jump_multiplier
+				humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			end
+		end
+	
+		local function characterAdded(new)
+			character = new
+			humanoid = new:WaitForChild("Humanoid")
+			hasDoubleJumped = false
+			canDoubleJump = false
+			oldPower = humanoid.JumpPower
+	
+			humanoid.StateChanged:connect(function(old, new)
+				if new == Enum.HumanoidStateType.Landed then
+					canDoubleJump = false
+					hasDoubleJumped = false
+					humanoid.JumpPower = oldPower
+				elseif new == Enum.HumanoidStateType.Freefall then
+					wait(time_delay)
+					canDoubleJump = true
+				end
+			end)
+		end
+	
+		if player.Character then
+			characterAdded(player.Character) 
+		end
+	
+		player.CharacterAdded:connect(characterAdded)
+		UIS.JumpRequest:connect(onJumpRequest)
+	end)
+end
+coroutine.wrap(AOFL_fake_script)()
+local function AVNQZI_fake_script() -- RCG.Open/Close (PUT ME IN A TEXTBUTTON) 
+	local script = Instance.new('LocalScript', RCG)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.clientsided.Visible = not script.Parent.Parent.clientsided.Visible
+	end)
+	                
+end
+coroutine.wrap(AVNQZI_fake_script)()
+local function EEEOTS_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local recommendedpage = script.Parent.RecommendedScripts
+	
+	if game.GameId == 4924922222 then
+		recommendedpage.ESP.Visible = false
+		print("connected")
+	end
+	if game.GameId == 17625359962 then
+		recommendedpage.day.Visible = false
+		recommendedpage.night.Visible = false
+		recommendedpage.sus1.Visible = false
+		recommendedpage.clickTP.Visible = false
+		print("connected")
+	end
+	
+end
+coroutine.wrap(EEEOTS_fake_script)()
