@@ -1,3 +1,4 @@
+-- loader
 
 local Main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -25,7 +26,7 @@ local YC = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local hi = Instance.new("TextLabel")
 local info = Instance.new("TextLabel")
-local C = Instance.new("TextButton")
+local TandO = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local clientsided = Instance.new("Frame")
 local night = Instance.new("Frame")
@@ -76,6 +77,21 @@ local RCG = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local info_2 = Instance.new("TextLabel")
 local info_3 = Instance.new("TextLabel")
+local GGFLING = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local PlayerName = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local FlingPlayer = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local Xclose_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local C = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TRLOTH = Instance.new("Frame")
+local yeet = Instance.new("Frame")
+local TextLabel_20 = Instance.new("TextLabel")
+local OK_19 = Instance.new("TextButton")
 
 --Properties:
 
@@ -87,7 +103,7 @@ Frame.Parent = Main
 Frame.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.175101221, 0, 0.140603557, 0)
+Frame.Position = UDim2.new(0.266564667, 0, 0.018861454, 0)
 Frame.Size = UDim2.new(0, 710, 0, 421)
 
 UICorner.Parent = Frame
@@ -338,23 +354,23 @@ info.TextSize = 14.000
 info.TextStrokeTransparency = 0.000
 info.TextWrapped = true
 
-C.Name = "C"
-C.Parent = Frame
-C.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-C.BackgroundTransparency = 0.600
-C.BorderColor3 = Color3.fromRGB(0, 0, 0)
-C.BorderSizePixel = 0
-C.Position = UDim2.new(0, 0, 0.282660335, 0)
-C.Size = UDim2.new(0, 60, 0, 48)
-C.ZIndex = 2
-C.Font = Enum.Font.SourceSans
-C.Text = "Client sided"
-C.TextColor3 = Color3.fromRGB(255, 255, 255)
-C.TextScaled = true
-C.TextSize = 14.000
-C.TextWrapped = true
+TandO.Name = "TandO"
+TandO.Parent = Frame
+TandO.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TandO.BackgroundTransparency = 0.600
+TandO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TandO.BorderSizePixel = 0
+TandO.Position = UDim2.new(0, 0, 0.441805214, 0)
+TandO.Size = UDim2.new(0, 60, 0, 48)
+TandO.ZIndex = 2
+TandO.Font = Enum.Font.SourceSans
+TandO.Text = "Troll & other"
+TandO.TextColor3 = Color3.fromRGB(255, 255, 255)
+TandO.TextScaled = true
+TandO.TextSize = 14.000
+TandO.TextWrapped = true
 
-UICorner_3.Parent = C
+UICorner_3.Parent = TandO
 
 clientsided.Name = "clientsided"
 clientsided.Parent = Frame
@@ -818,7 +834,7 @@ RCG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 RCG.BackgroundTransparency = 0.600
 RCG.BorderColor3 = Color3.fromRGB(0, 0, 0)
 RCG.BorderSizePixel = 0
-RCG.Position = UDim2.new(0, 0, 0.415676951, 0)
+RCG.Position = UDim2.new(0, 0, 0.596199512, 0)
 RCG.Size = UDim2.new(0, 60, 0, 48)
 RCG.ZIndex = 2
 RCG.Font = Enum.Font.SourceSans
@@ -864,9 +880,142 @@ info_3.TextSize = 14.000
 info_3.TextStrokeTransparency = 0.000
 info_3.TextWrapped = true
 
+GGFLING.Name = "GG FLING"
+GGFLING.Parent = Frame
+GGFLING.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GGFLING.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GGFLING.Position = UDim2.new(-0.226221472, 0, 0.662741303, 0)
+GGFLING.Size = UDim2.new(0.370811731, 0, 0.287897497, 0)
+GGFLING.Visible = false
+
+Title.Name = "Title"
+Title.Parent = GGFLING
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title.Position = UDim2.new(0.0529801324, 0, 0, 0)
+Title.Size = UDim2.new(0.89403981, 0, 0.145772606, 0)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "Custom yeet "
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = GGFLING
+PlayerName.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+PlayerName.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerName.Position = UDim2.new(0.0518350899, 0, 0.20408164, 0)
+PlayerName.Size = UDim2.new(0.890728474, 0, 0.206997082, 0)
+PlayerName.Font = Enum.Font.SourceSans
+PlayerName.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.PlaceholderText = "Player Username"
+PlayerName.Text = ""
+PlayerName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.TextScaled = true
+PlayerName.TextSize = 14.000
+PlayerName.TextWrapped = true
+
+UICorner_6.Parent = PlayerName
+
+FlingPlayer.Name = "FlingPlayer"
+FlingPlayer.Parent = GGFLING
+FlingPlayer.BackgroundColor3 = Color3.fromRGB(82, 82, 82)
+FlingPlayer.BorderColor3 = Color3.fromRGB(27, 42, 53)
+FlingPlayer.Position = UDim2.new(0.113543503, 0, 0.545189559, 0)
+FlingPlayer.Size = UDim2.new(0.742685378, 0, 0.210725486, 0)
+FlingPlayer.Font = Enum.Font.Code
+FlingPlayer.Text = "YEET"
+FlingPlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlingPlayer.TextScaled = true
+FlingPlayer.TextSize = 14.000
+FlingPlayer.TextWrapped = true
+
+UICorner_7.Parent = FlingPlayer
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = GGFLING
+
+Xclose_2.Name = "X-close"
+Xclose_2.Parent = GGFLING
+Xclose_2.BackgroundColor3 = Color3.fromRGB(103, 29, 27)
+Xclose_2.BackgroundTransparency = 0.600
+Xclose_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Xclose_2.BorderSizePixel = 0
+Xclose_2.Position = UDim2.new(0.856228888, 0, 0, 0)
+Xclose_2.Size = UDim2.new(0, 37, 0, 24)
+Xclose_2.ZIndex = 2
+Xclose_2.Font = Enum.Font.Creepster
+Xclose_2.Text = "X"
+Xclose_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+Xclose_2.TextScaled = true
+Xclose_2.TextSize = 14.000
+Xclose_2.TextWrapped = true
+
+UICorner_9.Parent = Xclose_2
+
+C.Name = "C"
+C.Parent = Frame
+C.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+C.BackgroundTransparency = 0.600
+C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+C.BorderSizePixel = 0
+C.Position = UDim2.new(0, 0, 0.280285031, 0)
+C.Size = UDim2.new(0, 60, 0, 48)
+C.ZIndex = 2
+C.Font = Enum.Font.SourceSans
+C.Text = "Client sided"
+C.TextColor3 = Color3.fromRGB(255, 255, 255)
+C.TextScaled = true
+C.TextSize = 14.000
+C.TextWrapped = true
+
+UICorner_10.Parent = C
+
+TRLOTH.Name = "TRLOTH"
+TRLOTH.Parent = Frame
+TRLOTH.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TRLOTH.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TRLOTH.BorderSizePixel = 0
+TRLOTH.Position = UDim2.new(0.0969104171, 0, 0.114014253, 0)
+TRLOTH.Size = UDim2.new(0, 635, 0, 353)
+TRLOTH.Visible = false
+TRLOTH.ZIndex = 4
+
+yeet.Name = "yeet"
+yeet.Parent = TRLOTH
+yeet.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+yeet.BorderColor3 = Color3.fromRGB(27, 42, 53)
+yeet.Position = UDim2.new(0.681344688, 0, 0.0298334397, 0)
+yeet.Size = UDim2.new(0, 178, 0, 101)
+yeet.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_20.Parent = yeet
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 2.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_20.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_20.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_20.Font = Enum.Font.Cartoon
+TextLabel_20.Text = "Yeet/fling gui"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 28.000
+
+OK_19.Name = "OK"
+OK_19.Parent = yeet
+OK_19.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_19.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_19.Size = UDim2.new(0, 104, 0, 41)
+OK_19.Font = Enum.Font.Cartoon
+OK_19.Text = "APPLY"
+OK_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_19.TextSize = 20.000
+
 -- Scripts:
 
-local function XBMOYIU_fake_script() -- Frame.Drag 
+local function KDSLZC_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -909,8 +1058,8 @@ local function XBMOYIU_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(XBMOYIU_fake_script)()
-local function DZNBEW_fake_script() -- OK.LocalScript 
+coroutine.wrap(KDSLZC_fake_script)()
+local function XMFCSUE_fake_script() -- OK.LocalScript 
 	local script = Instance.new('LocalScript', OK)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -928,8 +1077,8 @@ local function DZNBEW_fake_script() -- OK.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(DZNBEW_fake_script)()
-local function UDEFMT_fake_script() -- OK_2.LocalScript 
+coroutine.wrap(XMFCSUE_fake_script)()
+local function TYGLS_fake_script() -- OK_2.LocalScript 
 	local script = Instance.new('LocalScript', OK_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -939,8 +1088,8 @@ local function UDEFMT_fake_script() -- OK_2.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(UDEFMT_fake_script)()
-local function LTEC_fake_script() -- OK_3.LocalScript 
+coroutine.wrap(TYGLS_fake_script)()
+local function UEIN_fake_script() -- OK_3.LocalScript 
 	local script = Instance.new('LocalScript', OK_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -950,8 +1099,8 @@ local function LTEC_fake_script() -- OK_3.LocalScript
 		hum.JumpPower = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(LTEC_fake_script)()
-local function TVXSCXX_fake_script() -- OK_4.LocalScript 
+coroutine.wrap(UEIN_fake_script)()
+local function BMAPF_fake_script() -- OK_4.LocalScript 
 	local script = Instance.new('LocalScript', OK_4)
 
 	local UIS = game:GetService("UserInputService")
@@ -1005,8 +1154,8 @@ local function TVXSCXX_fake_script() -- OK_4.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(TVXSCXX_fake_script)()
-local function AAINL_fake_script() -- OK_5.LocalScript 
+coroutine.wrap(BMAPF_fake_script)()
+local function DMIEQD_fake_script() -- OK_5.LocalScript 
 	local script = Instance.new('LocalScript', OK_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1022,8 +1171,8 @@ local function AAINL_fake_script() -- OK_5.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(AAINL_fake_script)()
-local function WXHMX_fake_script() -- YC.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(DMIEQD_fake_script)()
+local function CPGXLR_fake_script() -- YC.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', YC)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1031,24 +1180,24 @@ local function WXHMX_fake_script() -- YC.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(WXHMX_fake_script)()
-local function GEIQOXB_fake_script() -- hi.LocalScript 
+coroutine.wrap(CPGXLR_fake_script)()
+local function UQGTOLA_fake_script() -- hi.LocalScript 
 	local script = Instance.new('LocalScript', hi)
 
 	
 	script.Parent.Text = "(Hello, ".. game.Players.LocalPlayer.DisplayName.. ")"
 end
-coroutine.wrap(GEIQOXB_fake_script)()
-local function LOQFIPW_fake_script() -- C.Open/Close (PUT ME IN A TEXTBUTTON) 
-	local script = Instance.new('LocalScript', C)
+coroutine.wrap(UQGTOLA_fake_script)()
+local function UKGB_fake_script() -- TandO.Open/Close (PUT ME IN A TEXTBUTTON) 
+	local script = Instance.new('LocalScript', TandO)
 
 	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.clientsided.Visible = not script.Parent.Parent.clientsided.Visible
+		script.Parent.Parent.TRLOTH.Visible = not script.Parent.Parent.TRLOTH.Visible
 	end)
 	                
 end
-coroutine.wrap(LOQFIPW_fake_script)()
-local function IBMZKYG_fake_script() -- OK_6.LocalScript 
+coroutine.wrap(UKGB_fake_script)()
+local function XCDXLC_fake_script() -- OK_6.LocalScript 
 	local script = Instance.new('LocalScript', OK_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1056,8 +1205,8 @@ local function IBMZKYG_fake_script() -- OK_6.LocalScript
 		lightining.TimeOfDay = 0
 	end)
 end
-coroutine.wrap(IBMZKYG_fake_script)()
-local function ZQPMLWA_fake_script() -- OK_7.LocalScript 
+coroutine.wrap(XCDXLC_fake_script)()
+local function JPEAC_fake_script() -- OK_7.LocalScript 
 	local script = Instance.new('LocalScript', OK_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1066,8 +1215,8 @@ local function ZQPMLWA_fake_script() -- OK_7.LocalScript
 	lightining.TimeOfDay = 14
 	end)
 end
-coroutine.wrap(ZQPMLWA_fake_script)()
-local function KNGEG_fake_script() -- OK_8.LocalScript 
+coroutine.wrap(JPEAC_fake_script)()
+local function VFUFR_fake_script() -- OK_8.LocalScript 
 	local script = Instance.new('LocalScript', OK_8)
 
 	local Players = game:GetService("Players")
@@ -1093,8 +1242,8 @@ local function KNGEG_fake_script() -- OK_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(KNGEG_fake_script)()
-local function MGBRS_fake_script() -- OK_9.LocalScript 
+coroutine.wrap(VFUFR_fake_script)()
+local function SHWOC_fake_script() -- OK_9.LocalScript 
 	local script = Instance.new('LocalScript', OK_9)
 
 	local Players = game:GetService("Players")
@@ -1123,8 +1272,8 @@ local function MGBRS_fake_script() -- OK_9.LocalScript
 	
 	
 end
-coroutine.wrap(MGBRS_fake_script)()
-local function WLFUG_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(SHWOC_fake_script)()
+local function JJRQLPY_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', Xclose)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1133,8 +1282,8 @@ local function WLFUG_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(WLFUG_fake_script)()
-local function XVPBGH_fake_script() -- OK_10.LocalScript 
+coroutine.wrap(JJRQLPY_fake_script)()
+local function JYZNXC_fake_script() -- OK_10.LocalScript 
 	local script = Instance.new('LocalScript', OK_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1142,8 +1291,8 @@ local function XVPBGH_fake_script() -- OK_10.LocalScript
 		lightining.TimeOfDay = 0
 	end)
 end
-coroutine.wrap(XVPBGH_fake_script)()
-local function BTOH_fake_script() -- OK_11.LocalScript 
+coroutine.wrap(JYZNXC_fake_script)()
+local function MEUYS_fake_script() -- OK_11.LocalScript 
 	local script = Instance.new('LocalScript', OK_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1152,8 +1301,8 @@ local function BTOH_fake_script() -- OK_11.LocalScript
 	lightining.TimeOfDay = 14
 	end)
 end
-coroutine.wrap(BTOH_fake_script)()
-local function RIPE_fake_script() -- OK_12.LocalScript 
+coroutine.wrap(MEUYS_fake_script)()
+local function BYNW_fake_script() -- OK_12.LocalScript 
 	local script = Instance.new('LocalScript', OK_12)
 
 	local Players = game:GetService("Players")
@@ -1179,8 +1328,8 @@ local function RIPE_fake_script() -- OK_12.LocalScript
 	end)
 	
 end
-coroutine.wrap(RIPE_fake_script)()
-local function NQQAMX_fake_script() -- OK_13.LocalScript 
+coroutine.wrap(BYNW_fake_script)()
+local function AUDDQCN_fake_script() -- OK_13.LocalScript 
 	local script = Instance.new('LocalScript', OK_13)
 
 	local Players = game:GetService("Players")
@@ -1209,8 +1358,8 @@ local function NQQAMX_fake_script() -- OK_13.LocalScript
 	
 	
 end
-coroutine.wrap(NQQAMX_fake_script)()
-local function EOKVSDN_fake_script() -- OK_14.LocalScript 
+coroutine.wrap(AUDDQCN_fake_script)()
+local function OTTWG_fake_script() -- OK_14.LocalScript 
 	local script = Instance.new('LocalScript', OK_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1226,8 +1375,8 @@ local function EOKVSDN_fake_script() -- OK_14.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(EOKVSDN_fake_script)()
-local function XDJZ_fake_script() -- OK_15.LocalScript 
+coroutine.wrap(OTTWG_fake_script)()
+local function UVPTR_fake_script() -- OK_15.LocalScript 
 	local script = Instance.new('LocalScript', OK_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1237,8 +1386,8 @@ local function XDJZ_fake_script() -- OK_15.LocalScript
 		hum.JumpPower = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(XDJZ_fake_script)()
-local function NQGW_fake_script() -- OK_16.LocalScript 
+coroutine.wrap(UVPTR_fake_script)()
+local function PTDNG_fake_script() -- OK_16.LocalScript 
 	local script = Instance.new('LocalScript', OK_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1256,8 +1405,8 @@ local function NQGW_fake_script() -- OK_16.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(NQGW_fake_script)()
-local function ZJQMF_fake_script() -- OK_17.LocalScript 
+coroutine.wrap(PTDNG_fake_script)()
+local function VLVUQZ_fake_script() -- OK_17.LocalScript 
 	local script = Instance.new('LocalScript', OK_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1267,8 +1416,8 @@ local function ZJQMF_fake_script() -- OK_17.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(ZJQMF_fake_script)()
-local function AOFL_fake_script() -- OK_18.LocalScript 
+coroutine.wrap(VLVUQZ_fake_script)()
+local function JNMRHBI_fake_script() -- OK_18.LocalScript 
 	local script = Instance.new('LocalScript', OK_18)
 
 	local UIS = game:GetService("UserInputService")
@@ -1322,8 +1471,8 @@ local function AOFL_fake_script() -- OK_18.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(AOFL_fake_script)()
-local function AVNQZI_fake_script() -- RCG.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(JNMRHBI_fake_script)()
+local function BPEYF_fake_script() -- RCG.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', RCG)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1331,8 +1480,8 @@ local function AVNQZI_fake_script() -- RCG.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(AVNQZI_fake_script)()
-local function EEEOTS_fake_script() -- Frame.LocalScript 
+coroutine.wrap(BPEYF_fake_script)()
+local function JSBN_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local recommendedpage = script.Parent.RecommendedScripts
@@ -1348,6 +1497,157 @@ local function EEEOTS_fake_script() -- Frame.LocalScript
 		recommendedpage.clickTP.Visible = false
 		print("connected")
 	end
+	-- Reference to StarterGui
+	local StarterGui = game:GetService("StarterGui")
+	
+	-- Function to show notification with an image
+	local function showNotification()
+		StarterGui:SetCore("SendNotification", {
+			Title = "Welcome!";
+			Text = "sweet exploits";
+			Duration = 5; -- Duration in seconds
+			Icon = "" -- Replace with your image asset ID
+		})
+	end
+	
+	-- Call the function when the player joins
+	showNotification()
 	
 end
-coroutine.wrap(EEEOTS_fake_script)()
+coroutine.wrap(JSBN_fake_script)()
+local function IPQCTOH_fake_script() -- FlingPlayer.Handler 
+	local script = Instance.new('LocalScript', FlingPlayer)
+
+	local lp = game:FindService("Players").LocalPlayer
+	
+	local function gplr(String)
+		local Found = {}
+		local strl = String:lower()
+		if strl == "all" then
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				table.insert(Found,v)
+			end
+		elseif strl == "others" then
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				if v.Name ~= lp.Name then
+					table.insert(Found,v)
+				end
+			end
+		elseif strl == "me" then
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				if v.Name == lp.Name then
+					table.insert(Found,v)
+				end
+			end
+		else
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				if v.Name:lower():sub(1, #String) == String:lower() then
+					table.insert(Found,v)
+				end
+			end
+		end
+		return Found
+	end
+	
+	local function notif(str,duv)
+		game:FindService("StarterGui"):SetCore("SendNotification",{
+			Title = "sweet exploits"
+		})
+	end
+	
+	local TextButton = script.Parent
+	local TextBox = script.Parent.Parent.PlayerName
+	
+	TextButton.MouseButton1Click:Connect(function()
+		local Target = gplr(TextBox.Text)
+		if Target[1] then
+			Target = Target[1]
+			
+			local Thrust = Instance.new('BodyThrust',lp.Character.HumanoidRootPart)
+			Thrust.Force = Vector3.new(99999,99999,99999)
+			Thrust.Name = "YeetForce"
+			repeat
+				lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
+				Thrust.Location = Target.Character.HumanoidRootPart.Position
+				game:FindService("RunService").Heartbeat:Wait()
+			until not Target.Character:FindFirstChild("Head")
+		else
+			notif("Player is not in game")
+		end
+	end)
+	
+	--jgagilvjalijvloijxlivjzloijvlz--
+	notif("Sea_Dev Fling Loaded")
+end
+coroutine.wrap(IPQCTOH_fake_script)()
+local function BCBQTIE_fake_script() -- GGFLING.DragScript 
+	local script = Instance.new('LocalScript', GGFLING)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(BCBQTIE_fake_script)()
+local function WJMOS_fake_script() -- Xclose_2.Open/Close (PUT ME IN A TEXTBUTTON) 
+	local script = Instance.new('LocalScript', Xclose_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Visible = false
+		
+	end)
+	                
+end
+coroutine.wrap(WJMOS_fake_script)()
+local function BKAY_fake_script() -- C.Open/Close (PUT ME IN A TEXTBUTTON) 
+	local script = Instance.new('LocalScript', C)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.clientsided.Visible = not script.Parent.Parent.clientsided.Visible
+	end)
+	                
+end
+coroutine.wrap(BKAY_fake_script)()
+local function VTQOKLO_fake_script() -- OK_19.LocalScript 
+	local script = Instance.new('LocalScript', OK_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.Parent["GG FLING"].Visible = true
+	end)
+end
+coroutine.wrap(VTQOKLO_fake_script)()
